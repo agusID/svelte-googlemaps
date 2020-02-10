@@ -1,0 +1,57 @@
+@import './src/constants/style', './src/constants/colors'
+
+.btn
+  display: inline-block
+  font-weight: bold
+  color: $black
+  text-align: center
+  vertical-align: middle
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  background-color: transparent
+  border: 1px solid transparent
+  padding: 9.5px .75rem
+  line-height: 1.5
+  outline: none
+  transition: opacity 300ms ease-in-out, color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+  cursor: pointer
+  font-size: $font-size-normal
+  position: relative
+  cursor: default
+  &:disabled
+    color: $white
+    background-color: $dark-grey
+    border-color: $dark-grey
+    pointer-events: none
+  &.hoverable:hover
+    opacity: 0.5
+    cursor: pointer
+
+.btn-flex
+  display: flex !important
+  align-items: center
+  justify-content: center
+
+.btn-primary
+  color: $white
+  background-color: $primary-color
+  border-color: $primary-color
+  
+.btn-rounded
+  border-radius: 20px
+
+.btn-outline-primary
+  color: $primary-color
+  background-color: $white
+  border-color: $primary-color
+
+.btn-outline-secondary
+  color: $dark-grey
+  background-color: $white
+  border-color: $dark-grey
+
+.btn-block
+  width: 100%
+  display: block

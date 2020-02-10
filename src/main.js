@@ -1,0 +1,1 @@
+export { default as GoogleMap } from './App.svelte'
