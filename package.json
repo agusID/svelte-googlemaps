@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-googlemaps",
   "version": "0.0.1",
   "dependencies": {
     "axios": "^0.19.2"
@@ -21,5 +21,24 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public --port 3000"
-  }
+  },
+  "description": "This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusID/svelte-googlemaps.git"
+  },
+  "keywords": [
+    "svelte",
+    "google",
+    "maps",
+    "googlemaps",
+    "geolocation"
+  ],
+  "author": "Dwi Agustianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agusID/svelte-googlemaps/issues"
+  },
+  "homepage": "https://github.com/agusID/svelte-googlemaps#readme"
 }
